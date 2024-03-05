@@ -23,42 +23,42 @@ done
 if [ -d ./hypr ]
 then
 	echo "Hyprland config exists!"
-	cp ./hypr $HOME/.config/hypr
+	cp -r ./hypr $HOME/.config/hypr
 	(( configNumber = configNumber + 1))
 fi
 
 if [ -d ./wofi ]
 then
 	echo "wofi config exists!"
-	cp ./wofi $HOME/.config/wofi
+	cp -r ./wofi $HOME/.config/wofi
 	(( configNumber = configNumber + 1))
 fi
 
 if [ -d ./kitty ]
 then
 	echo "kitty config exists!"
-	cp ./kitty $HOME/.config/kitty
+	cp -r ./kitty $HOME/.config/kitty
 	(( configNumber = configNumber + 1))
 fi
 
 if [ -d ./swaylock ]
 then
 	echo "swaylock config exists!"
-	cp ./swaylock $HOME/.config/swaylock
+	cp -r ./swaylock $HOME/.config/swaylock
 	(( configNumber = configNumber + 1))
 fi
 
 if [ -d ./waybar ]
 then
 	echo "waybar config exists!"
-	cp ./waybar $HOME/.config/waybar
+	cp -r ./waybar $HOME/.config/waybar
 	(( configNumber = configNumber + 1))
 fi
 
 if [ -d ./wlogout ]
 then
 	echo "wlogout config exists!"
-	cp ./wlogout $HOME/.wlogout
+	cp -r ./wlogout $HOME/.wlogout
 	(( configNumber = configNumber + 1))
 fi
 
@@ -70,4 +70,5 @@ fi
 if [ -d ./wallpapers ]
 then
 	echo "Wallpapers folder found!"
-	cp .wallpapers ~/.wallpapers
+	cp -r ./wallpapers ~/.wallpapers
+fi
