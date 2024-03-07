@@ -12,7 +12,7 @@ do
         echo Package manager: ${osInfo[$f]}
 	if [[ ${osInfo[$f]} == "dnf" ]];then
 		sudo dnf copr enable erikreider/SwayNotificationCenter
-		sudo dnf install swaybg hyprland waybar wofi wlogout swaylock SwayNotificationCenter pavucontrol kitty
+		sudo dnf install thunar swaybg hyprland waybar wofi wlogout swaylock SwayNotificationCenter pavucontrol kitty
 	fi
     fi
 done
@@ -44,7 +44,7 @@ fi
 if [ -d ./swaylock ]
 then
 	echo "swaylock config exists!"
-	cp -r ./swaylock/ $HOME/.config/swaylock
+	cp -r ./swaylock/ $HOME/.swaylock
 	(( configNumber = configNumber + 1))
 fi
 
@@ -58,7 +58,7 @@ fi
 if [ -d ./wlogout ]
 then
 	echo "wlogout config exists!"
-	cp -r ./wlogout $HOME/.wlogout/
+	cp -r ./wlogout $HOME/.config/wlogout/
 	(( configNumber = configNumber + 1))
 fi
 
