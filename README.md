@@ -8,6 +8,9 @@ currently available on:
 - fedora based distros
 - Arch linux with yay installed
 - Arch based distros with yay installed
+- Debian
+- Ubuntu
+- Ubuntu based distros
 
 for automatic installation I have provided an install script ` install.sh `.  
 you can download and install automatically by running this command:  
