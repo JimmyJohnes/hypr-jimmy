@@ -14,6 +14,9 @@ do
 		sudo dnf copr enable erikreider/SwayNotificationCenter
 		sudo dnf install thunar swaybg hyprland waybar wofi wlogout swaylock SwayNotificationCenter pavucontrol kitty
 	fi
+	if [[ ${osInfo[$f]} == "yay" ]];then
+		yay -S hyprland wofi swaync waybar wlogout swaylock swaybg kitty thunar
+	fi
     fi
 done
 
