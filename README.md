@@ -44,20 +44,20 @@ for manual installation make sure you have these dependecies installed
 
 After that move each of the following files in their respective locations:  
 
-hypr -> ~/.config/hypr
-swaync -> ~/.config/swaync
-waybar -> ~/.config/waybar
-wlogout -> ~/.config/wlogout
-kitty -> ~/.config/kitty
-swaylock -> ~/.swaylock
-wallpapers -> ~/.wallpapers
+hypr -> ~/.config/hypr  
+swaync -> ~/.config/swaync  
+waybar -> ~/.config/waybar  
+wlogout -> ~/.config/wlogout  
+kitty -> ~/.config/kitty  
+swaylock -> ~/.swaylock  
+wallpapers -> ~/.wallpapers  
 
 
 ## Uninstallation / Removal
 
 ### Automatic Uninstallation
 
-TODO: write an uninstall script
+TODO: write an uninstall script  
 
 
 ### Manual Uninstallation
