@@ -23,35 +23,35 @@ done
 if [ -d ./hypr ]
 then
 	echo "Hyprland config exists!"
-	cp -r ./hypr/ $HOME/.config/hypr
+	cp -r ./hypr/ $HOME/.config/hypr/
 	(( configNumber = configNumber + 1))
 fi
 
 if [ -d ./wofi ]
 then
 	echo "wofi config exists!"
-	cp -r ./wofi/ $HOME/.config/wofi
+	cp -r ./wofi/ $HOME/.config/wofi/
 	(( configNumber = configNumber + 1))
 fi
 
 if [ -d ./kitty ]
 then
 	echo "kitty config exists!"
-	cp -r ./kitty/ $HOME/.config/kitty
+	cp -r ./kitty/ $HOME/.config/kitty/
 	(( configNumber = configNumber + 1))
 fi
 
 if [ -d ./swaylock ]
 then
 	echo "swaylock config exists!"
-	cp -r ./swaylock/ $HOME/.swaylock
+	cp -r ./swaylock/ $HOME/.swaylock/
 	(( configNumber = configNumber + 1))
 fi
 
 if [ -d ./waybar ]
 then
 	echo "waybar config exists!"
-	cp -r ./waybar/ $HOME/.config/waybar
+	cp -r ./waybar/ $HOME/.config/waybar/
 	(( configNumber = configNumber + 1))
 fi
 

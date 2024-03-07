@@ -10,3 +10,4 @@
 - swaylock
 - swaybg
 - kitty
+- thunar file manager
