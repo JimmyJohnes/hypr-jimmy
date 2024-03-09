@@ -63,7 +63,13 @@ wallpapers -> ~/.wallpapers
 
 ### Automatic Uninstallation
 
-TODO: write an uninstall script  
+Auto removal script is now available! just run this command
+
+```
+
+./uninstall.sh
+
+```
 
 
 ### Manual Uninstallation

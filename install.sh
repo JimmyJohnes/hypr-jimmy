@@ -11,6 +11,7 @@ for f in ${!osInfo[@]}
 do
     if [[ -f $f ]];then
         echo Package manager: ${osInfo[$f]}
+	echo "installing dependencies"
 	if [[ ${osInfo[$f]} == "dnf" ]];then
 		sudo dnf copr enable erikreider/SwayNotificationCenter
 		sudo dnf install thunar swaybg hyprland waybar wofi wlogout swaylock SwayNotificationCenter pavucontrol kitty
