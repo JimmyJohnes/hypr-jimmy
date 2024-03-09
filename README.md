@@ -45,6 +45,7 @@ for manual installation make sure you have these dependecies installed
 - [thunar file manager](https://docs.xfce.org/xfce/thunar/start)
 - [brightnessctl](https://github.com/Hummer12007/brightnessctl)
 - [pamixer](https://github.com/cdemoulins/pamixer)
+- [kde-polkit] (https://github.com/KDE/polkit-kde-agent-1)
 
 ### moving config files
 
