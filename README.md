@@ -1,5 +1,11 @@
 # hypr-Jimmy my hyprland config
 
+
+## Screenshots
+
+![screenshot1](screenshots/2024-03-07-205542_hyprshot.png)
+![screenshot2](screenshots/2024-03-07-205603_hyprshot.png)
+
 ## Automatic Installation
 
 currently available on:  
