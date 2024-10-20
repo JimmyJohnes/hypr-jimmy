@@ -2,7 +2,7 @@ changeTheme() {
 	if [[ $1 == "" ]] || [[ $1 == "-h" ]]; then
 		echo "Jimmy's theme changing command"
 		echo "-h shows this menu"
-		echo "available themes"
+		echo "available themes:"
 		ls ~/.configs/
 		return
 	fi
@@ -18,7 +18,6 @@ changeTheme() {
 	ln -sf ~/.configs/$1/waybar ~/.config/
 	ln -sf ~/.configs/$1/wlogout ~/.config/
 	ln -sf ~/.configs/$1/wofi ~/.config/
-	ln -sf ~/.configs/$1/neofetch ~/.config/
 	ln -sf ~/.configs/$1/.swaylock ~/
 	waybar & disown
 	hyprpaper & disown
