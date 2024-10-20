@@ -10,20 +10,15 @@
 
 currently available on:  
 
-- fedora
-- fedora based distros
 - Arch linux with yay installed
 - Arch based distros with yay installed
-- Debian
-- Ubuntu
-- Ubuntu based distros
 
-for automatic installation I have provided an install script ` install.sh `.  
+for automatic installation I have provided an install script ` install{your distro}.sh `.  
 you can download and install automatically by running this command:  
 
 ```
 
-git clone https://github.com/JimmyJohnes/hypr-jimmy/tree/main; cd hypr-jimmy; ./install.sh
+git clone https://github.com/JimmyJohnes/hypr-jimmy/tree/main && cd hypr-jimmy && install.sh
 
 ```
 
@@ -42,10 +37,8 @@ for manual installation make sure you have these dependecies installed
 - [swaylock](https://github.com/swaywm/swaylock)
 - [swaybg](https://github.com/swaywm/swaybg)
 - [kitty](https://github.com/kovidgoyal/kitty)
-- [thunar file manager](https://docs.xfce.org/xfce/thunar/start)
 - [brightnessctl](https://github.com/Hummer12007/brightnessctl)
 - [pamixer](https://github.com/cdemoulins/pamixer)
-- [kde-polkit](https://github.com/KDE/polkit-kde-agent-1)
 
 ### moving config files
 
